@@ -4,6 +4,11 @@ These are the settings that I'm currently using on my code editor, terminal and 
 
 ## 🔗 Links
 
+### Themes
+
+- [Aura Theme (Soft Dark)](https://github.com/daltonmenezes/aura-theme)
+- [Omni Owl Theme](https://marketplace.visualstudio.com/items?itemName=guilhermerodz.omni-owl)
+
 ### Fonts
 
 - [Fira Code](https://github.com/tonsky/FiraCode)
