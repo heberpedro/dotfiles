@@ -10,6 +10,12 @@ These are the settings that I'm currently using on my code editor, terminal and 
 
 ### ZSH
 
+Run the command to enable ZSH config
+
+```sh
+sh setup.sh
+```
+
 - [Oh My Zsh](https://ohmyz.sh/)
 - [Spaceship Theme](https://github.com/spaceship-prompt/spaceship-prompt)
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
