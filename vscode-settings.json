@@ -1,28 +1,30 @@
 {
   // Workbench
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Omni",
+  "workbench.colorTheme": "Omni Owl",
+  "workbench.editor.empty.hint": "hidden",
   "workbench.editor.labelFormat": "short",
-  "workbench.sideBar.location": "left",
-  "workbench.editor.untitled.hint": "hidden",
-
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.indent": 15,
+  "workbench.sideBar.location": "right",
   // Editor settings
   "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
   "editor.fontSize": 14,
   "editor.lineHeight": 20,
   "terminal.integrated.fontSize": 14,
+  "terminal.integrated.defaultProfile.osx": "zsh",
   "editor.tabSize": 2,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.renderLineHighlight": "gutter",
-  "editor.rulers": [80, 120],
+  "editor.rulers": [
+    120
+  ],
   "editor.parameterHints.enabled": false,
   "editor.semanticHighlighting.enabled": true,
-  "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
-
   // VSCode stuff
   "breadcrumbs.enabled": true,
   "explorer.compactFolders": false,
@@ -30,14 +32,15 @@
   "explorer.confirmDelete": false,
   "javascript.updateImportsOnFileMove.enabled": "never",
   "typescript.updateImportsOnFileMove.enabled": "never",
-
   // Emmet
-  "emmet.syntaxProfiles": { "javascript": "jsx" },
-  "emmet.includeLanguages": { "javascript": "javascriptreact" },
-
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
   // Extensions
   "extensions.ignoreRecommendations": true,
-  "diffEditor.ignoreTrimWhitespace": false,
   "material-icon-theme.folders.associations": {
     "infra": "app",
     "entities": "class",
@@ -62,7 +65,7 @@
     "mappers": "meta",
     "_shared": "shared",
     "eslint-config": "tools",
-    "kube": "kubernetes", 
+    "kube": "kubernetes",
     "presentation": "connection",
     "cryptography": "secure",
     "protocols": "resource",
@@ -82,5 +85,23 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "git.confirmSync": false,
   "cSpell.language": "en, pt, pt-BR",
-  "editor.inlineSuggest.enabled": true
+  "editor.inlineSuggest.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "search.quickOpen.includeHistory": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.ignoreMissingGitWarning": true,
+  "prettier.semi": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  }
 }

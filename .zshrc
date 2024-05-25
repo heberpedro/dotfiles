@@ -10,7 +10,7 @@ alias ssd="/Volumes/SSD"
 alias mbrew="arch -arm64 brew"
 
 # ZSH variables
-export ZSH="/Users/heberv/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 export ZSH_THEME="spaceship"
 
 # ZSH plugins
